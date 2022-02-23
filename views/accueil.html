@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>E-commerce Mockup</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar custom-container-blog">
+        <img class="logo" src="../assets/logo.svg" alt="logo" />
+        <div class="searchbar">
+          <input
+            type="text"
+            class="search-input"
+            placeholder="Search For Products, Brands & Categories"
+          />
+          <button type="submit" class="search-btn">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+
+        <div class="shop-icon">
+          <a href="#" class="favorite">
+            <i class="fas fa-heart"></i>
+            <div class="notification"><span>0</span></div>
+          </a>
+          <a href="#" class="account">
+            <i class="fas fa-user-circle"></i>
+          </a>
+          <a href="#" class="cart-icon">
+            <i class="fas fa-shopping-cart"></i>
+            <div class="notification"><span>0</span></div>
+          </a>
+        </div>
+
+        <div class="hamburger">
+          <div class="hamburger-lines"></div>
+        </div>
+      </nav>
+
+      <hr />
+
+      <div class="navbar-elements custom-container-blog">
+        <ul class="nav-links">
+          <select name="products" id="product-select">
+            <option value="">All categories</option>
+            <option value="books">Books</option>
+            <option value="games">Games</option>
+            <option value="beauty">Beauty</option>
+            <option value="health">Health</option>
+            <option value="music">Music</option>
+            <option value="food">Food</option>
+          </select>
+          <li class="nav-link current"><a href="#">Home</a></li>
+          <li class="nav-link"><a href="#">New Arrivals</a></li>
+          <li class="nav-link"><a href="#">Trending</a></li>
+          <li class="nav-link"><a href="#">Deals for you</a></li>
+          <li class="nav-link"><a href="#">Deals For You</a></li>
+          <li class="nav-link"><a href="#">Weekly Offers</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Get the new Iphone 13 Pro</h1>
+        <p>
+          A transformative triple-camera system that adds tons of capability
+          without complexity
+        </p>
+        <div class="cta-wrapper">
+          <button class="cta cta-hero">
+            Buy Now <i class="fas fa-shopping-basket"></i>
+          </button>
+          <button class="cta">With $599 with trade-in</button>
+        </div>
+      </div>
+      <img src="../assets/iphone_12_PNG22.png" class="iphone-hero" />
+    </section>
+
+    <section class="vision custom-container-blog">
+      <div class="img-vision-wrapper">
+        <img src="../assets/Wavy_Bus-01_Single-08.jpg" class="vision-img" />
+      </div>
+      <div class="vision-content">
+        <h2>Our vision</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit adipisci
+          nobis et doloremque temporibus! Voluptatem vero sapiente facere
+          ratione, exercitationem veritatis animi ab, tenetur dicta saepe
+          praesentium eos excepturi cumque! Minima temporibus deserunt
+          voluptatibus eius eveniet debitis quae pariatur numquam vero ratione
+          quidem cupiditate ipsa molestiae, nam deleniti esse tempore similique
+          reprehenderit ex quam ab ducimus? Ducimus mollitia fugiat assumenda?
+        </p>
+        <button class="cta cta-hero">
+          Contact Us <i class="fas fa-paper-plane"></i>
+        </button>
+      </div>
+    </section>
+
+    <section class="cta-banner">
+      <div class="cta-banner-wrapper custom-container-blog">
+        <h2>
+          Sneakers Never Run Out Of Style <br />
+          Get 50% Off Sitewide
+        </h2>
+        <button class="cta-outline">Start Shopping</button>
+      </div>
+    </section>
+
+    <section class="recommended">
+      <div class="title-container">
+        <h3 class="item-heading3">Explore Awesome Products</h3>
+        <h2 class="item-heading2">Recommended for you</h2>
+      </div>
+
+      <div class="grid-products custom-container-blog">
+        <a href="#" class="card">
+          <div class="card-img-wrapper">
+            <div class="card-overlay">
+              <button class="atc">Add to cart <i class="fas fa-cart-arrow-down"></i></button>
+              <button class="atc" id="cta-details">More details</button>
+            </div>
+            <img src="../assets/watch1.png" class="card-img" />
+          </div>
+          <h4>Single Tour</h4>
+          <div class="price-product"><span>$990</span></div>
+        </a>
+
+        <a href="#" class="card">
+            <div class="card-img-wrapper">
+              <div class="card-overlay">
+                <button class="atc">Add to cart <i class="fas fa-cart-arrow-down"></i></button>
+                <button class="atc" id="cta-details">More details</button>
+              </div>
+              <img src="../assets/watch2.png" class="card-img" />
+            </div>
+          <h4>Single Tour</h4>
+          <div class="price-product"><span>$990</span></div>
+        </a>
+
+        <a href="#" class="card">
+          <div class="card-img-wrapper">
+            <div class="card-overlay">
+              <button class="atc">Add to cart <i class="fas fa-cart-arrow-down"></i></button>
+              <button class="atc" id="cta-details">More details</button>
+            </div>
+            <img src="../assets/watch1.png" class="card-img" />
+          </div>
+          <h4>Single Tour</h4>
+          <div class="price-product"><span>$990</span></div>
+        </a>
+
+        <a href="#" class="card">
+          <div class="card-img-wrapper">
+            <div class="card-overlay">
+              <button class="atc">Add to cart <i class="fas fa-cart-arrow-down"></i></button>
+              <button class="atc" id="cta-details">More details</button>
+            </div>
+            <img src="../assets/watch2.png" class="card-img" />
+          </div>
+          <h4>Single Tour</h4>
+          <div class="price-product"><span>$990</span></div>
+        </a>
+
+        <button class="cta-outline" id="recommended-cta">
+          Explore Other Products
+        </button>
+      </div>
+    </section>
+    <div class="blank"></div>
+
+    <section class="cta-banner">
+      <div class="cta-banner-wrapper custom-container-blog">
+        <h2>
+          Sneakers Never Run Out Of Style <br />
+          Get 50% Off Sitewide
+        </h2>
+        <button class="cta-outline">Start Shopping</button>
+      </div>
+    </section>
+
+    <section class="nike-selection">
+      <div class="nike-heading-wrapper">
+        <h3 class="item-heading3">Straight from nike</h3>
+        <h2 class="item-heading2">new collection</h2>
+      </div>
+
+      <div class="nike-wrapper">
+
+        <a href="#" class="nike-card1">
+          <div class="card-overlay">
+            <button class="atc">Add to cart <i class="fas fa-cart-arrow-down"></i></button>
+            <button class="atc" id="cta-details">More details</button>
+          </div>
+          <img src="../assets/shoe1.png" class="nike-card-img">
+          <div class="nike-card-row">
+            <h4>Nike Air Force 1</h4>
+            <div class="price-product-card"><span>99$</span></div>
+          </div>
+        </a>
+
+        <a href="#" class="nike-card2">
+          <div class="card-overlay">
+            <button class="atc">Add to cart <i class="fas fa-cart-arrow-down"></i></button>
+            <button class="atc" id="cta-details">More details</button>
+          </div>
+          <img src="../assets/shoe2.png" class="nike-card-img">
+          <div class="nike-card-row">
+            <h4>NikeCourt Air</h4>
+            <div class="price-product-card"><span>99$</span></div>
+          </div>
+        </a>
+
+        <a href="#" class="nike-card3">
+          <div class="card-overlay">
+            <button class="atc">Add to cart <i class="fas fa-cart-arrow-down"></i></button>
+            <button class="atc" id="cta-details">More details</button>
+          </div>
+          <img src="../assets/shoe3.png" class="nike-card-img">
+          <div class="nike-card-row">
+            <h4>Nike SB Zoom</h4>
+            <div class="price-product-card"><span>99$</span></div>
+          </div>
+        </a>
+
+        <a href="#" class="nike-card4">
+          <div class="card-overlay">
+            <button class="atc">Add to cart <i class="fas fa-cart-arrow-down"></i></button>
+            <button class="atc" id="cta-details">More details</button>
+          </div>
+          <img src="../assets/shoe4.png" class="nike-card-img">
+          <div class="nike-card-row">
+            <h4>Nike Signal</h4>
+            <div class="price-product-card"><span>99$</span></div>
+          </div>
+        </a>
+
+        <a href="#" class="sale-nike">
+          <div class="card-overlay">
+            <button class="atc">Add to cart <i class="fas fa-cart-arrow-down"></i></button>
+            <button class="atc" id="cta-details">More details</button>
+          </div>
+          <div class="nike-card-row">
+            <div class="sale"><span>SALE -50%</span></div>
+            <div class="price-product-card"><span>99$</span></div>
+          </div>
+          <img src="../assets/shoe5.png" class="nike-sale-img">
+          <h4>Nike Air Force 1 Shadow</h4>
+          <p>Brand: Nike</p>
+        </a>
+
+      </div>
+      <button class="cta-outline" id="recommended-cta">
+        Explore Other Products
+      </button>
+    </section>
+
+    <section class="cta-banner">
+      <div class="cta-banner-wrapper custom-container-blog">
+        <h2>
+          Sneakers Never Run Out Of Style <br />
+          Get 50% Off Sitewide
+        </h2>
+        <button class="cta-outline">Start Shopping</button>
+      </div>
+    </section>
+
+    <section class="trending">
+      <div class="nike-heading-wrapper">
+        <h3 class="item-heading3">top products</h3>
+        <h2 class="item-heading2">trending this week</h2>
+      </div>
+
+      <div class="trending-wrapper custom-container-blog">
+
+        <a href="#" class="trending-card">
+          <div class="img-wrapper">
+            <img src="../assets/shoe2.png" class="trending-img">
+          </div>
+          <div class="trending-row">
+            <h4>Nike Court Air</h4>
+            <div class="price-product"><span>$58</span></div>
+          </div>
+        </a>
+
+        <a href="#" class="trending-card">
+          <div class="img-wrapper">
+            <img src="../assets/shoe1.png" class="trending-img">
+          </div>
+          <div class="trending-row">
+            <h4>Nike Court Air</h4>
+            <div class="price-product"><span>$58</span></div>
+          </div>
+        </a>
+
+        <a href="#" class="trending-card">
+          <div class="img-wrapper">
+            <img src="../assets/shoe3.png" class="trending-img">
+          </div>
+          <div class="trending-row">
+            <h4>Nike Court Air</h4>
+            <div class="price-product"><span>$58</span></div>
+          </div>
+        </a>
+
+        <a href="#" class="trending-card">
+          <div class="img-wrapper">
+            <img src="../assets/shoe4.png" class="trending-img">
+          </div>
+          <div class="trending-row">
+            <h4>Nike Court Air</h4>
+            <div class="price-product"><span>$58</span></div>
+          </div>
+        </a>
+
+        <a href="#" class="trending-card">
+          <div class="img-wrapper">
+            <img src="../assets/shoe2.png" class="trending-img">
+          </div>
+          <div class="trending-row">
+            <h4>Nike Court Air</h4>
+            <div class="price-product"><span>$58</span></div>
+          </div>
+        </a>
+
+        <a href="#" class="trending-card">
+          <div class="img-wrapper">
+            <img src="../assets/shoe1.png" class="trending-img">
+          </div>
+          <div class="trending-row">
+            <h4>Nike Court Air</h4>
+            <div class="price-product"><span>$58</span></div>
+          </div>
+        </a>
+        <a href="#" class="trending-card">
+          <div class="img-wrapper">
+            <img src="../assets/shoe3.png" class="trending-img">
+          </div>
+          <div class="trending-row">
+            <h4>Nike Court Air</h4>
+            <div class="price-product"><span>$58</span></div>
+          </div>
+        </a>
+        <a href="#" class="trending-card">
+          <div class="img-wrapper">
+            <img src="../assets/shoe4.png" class="trending-img">
+          </div>
+          <div class="trending-row">
+            <h4>Nike Court Air</h4>
+            <div class="price-product"><span>$58</span></div>
+          </div>
+        </div>
+      </a>
+    </section>
+
+
+    <aside class="cart-container">
+      <div class="cart">
+        <h1 class="cart-title">
+          <span>
+            Cart
+            <i class="fas fa-shopping-cart"></i>
+          </span>
+          <button class="cart-close">&times;</button>
+        </h1>
+
+        <div class="cart-body">
+          <table class="cart-table">
+            <thead>
+              <tr>
+                <th><span class="sr-only">Product Image</span></th>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Qty</th>
+                <th>Total</th>
+                <th><span class="sr-only">Actions</span></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><i class="fas fa-carrot"></i></td>
+                <td>Carrot</td>
+                <td>$1.00</td>
+                <td class="center">1</td>
+                <td>$1.00</td>
+                <td class="center">
+                  <button class="cart-remove">
+                    &times;
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p class="center"><em>No items in cart</em></p>
+          <div class="spread">
+            <span><strong>Total:</strong> $1.00</span>
+            <button class="atc">Checkout</button>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <footer>
+      <div class="footer-wrapper custom-container-blog">
+
+        <div class="col-wrapper">
+          <div class="col-footer">
+            <img class="logo" src="../assets/logo__2_-removebg-preview.png" alt="logo" id="logo-footer" />
+            <p class="logo-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur obcaecati doloremque facere corrupti expedita quam neque eum</p>
+          </div>
+          <div class="col">
+            <h5>Products</h5>
+            <a href="#">Trending</a>
+            <a href="#">My account</a>
+            <a href="#">Vendors</a>
+            <a href="#">Brands</a>
+            <a href="#">Storefront</a>
+          </div>
+        </div>
+
+        <div class="col-wrapper">
+          <div class="col">
+            <h5>Legals</h5>
+            <a href="#">License</a>
+            <a href="#">Refund Policy</a>
+            <a href="#">About us</a>
+            <a href="#">Contacts</a>
+          </div>
+          <div class="col-footer">
+            <h5>Contacts</h5>
+            <p class="contact-us">Fell free get in touch with us via phone or send us a message</p>
+            <p>+1 234 567 89 10</p>
+            <p>support@khoomi.com</p>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+
+
+    <script src="../main.js"></script>
+  </body>
+</html>
